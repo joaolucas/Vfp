@@ -25,10 +25,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        View/mainview.cpp
+        View/mainview.cpp \
+    View/setuptab.cpp
 
 HEADERS += \
-        View/mainview.h
+        View/mainview.h \
+    View/setuptab.h
 
 FORMS += \
-        View/mainview.ui
+        View/mainview.ui \
+    View/setuptab.ui
+
+
+RESOURCES += \
+    VfpResources.qrc

@@ -29,6 +29,11 @@
        <attribute name="title">
         <string>Setup</string>
        </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <layout class="QVBoxLayout" name="loSetupTab"/>
+        </item>
+       </layout>
       </widget>
      </widget>
     </item>
