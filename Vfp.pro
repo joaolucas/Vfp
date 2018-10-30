@@ -26,11 +26,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         View/mainview.cpp \
-    View/setuptab.cpp
+    View/setuptab.cpp \
+    startup.cpp
 
 HEADERS += \
         View/mainview.h \
-    View/setuptab.h
+    View/setuptab.h \
+    startup.h
 
 FORMS += \
         View/mainview.ui \
